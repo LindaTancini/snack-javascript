@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "js1": "node js-snacks/01/esercizi1.js",
+    "ts1": "ts-node ts-snacks/01/esercizi1.ts"
   },
   "keywords": [],
   "author": "",
