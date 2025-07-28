@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "js1": "node js-snacks/01/esercizi1.js",
+    "js2": "node js-snacks/02/esercizi2.js",
     "ts1": "ts-node ts-snacks/01/esercizi1.ts"
   },
   "keywords": [],
