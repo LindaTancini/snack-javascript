@@ -59,3 +59,64 @@ Scrivi una funzione `salutaNomi(arr)` che usa `forEach` per stampare `Ciao, <nom
 ## 15. Array al contrario con for
 
 Crea un array di numeri. Usando un ciclo `for`, stampa gli elementi dall’ultimo al primo.
+
+---
+
+# 📦 Array di Partenza per gli Snack JS
+
+```js
+// 1. Somma di tutti i numeri
+const numeri = [10, 5, 8, 12, 3];
+
+// 2. Stampa tutti gli elementi
+const parole = ["ciao", "mondo", "javascript", "array"];
+
+// 3. Maiuscole con map
+const nomi = ["luca", "marta", "giulia", "andrea"];
+
+// 4. Filtra numeri pari
+const numeriInteri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// 5. Trova elemento
+const persone = [
+  { nome: "Anna", eta: 25 },
+  { nome: "Luca", eta: 34 },
+  { nome: "Marta", eta: 29 },
+  { nome: "Gianni", eta: 45 },
+];
+
+// 6. Controlla presenza
+const colori = ["rosso", "blu", "verde", "giallo", "viola"];
+
+// 7. Raddoppia i numeri
+const numeriDaRaddoppiare = [1, 4, 6, 9];
+
+// 8. Somma con funzione
+const numeriDaSomma = [3, 7, 2, 8, 10];
+
+// 9. Conta parole lunghe
+const elencoParole = ["banana", "cane", "automobile", "sole", "computer"];
+
+// 10. Stampa con indice
+const animali = ["cane", "gatto", "coniglio", "criceto", "pesce"];
+
+// 11. Trova il primo multiplo di 7
+const numeriMultipli = [4, 10, 21, 35, 5, 14, 2];
+
+// 12. Verifica parole
+const dizionario = ["ciao", "grazie", "per favore", "scusa"];
+
+// 13. Filtra maggiorenni
+const utenti = [
+  { nome: "Marco", eta: 17 },
+  { nome: "Chiara", eta: 22 },
+  { nome: "Paolo", eta: 15 },
+  { nome: "Elena", eta: 30 },
+];
+
+// 14. Funzione di saluto
+const nomiDaSalutare = ["Marco", "Elisa", "Sandro", "Luna"];
+
+// 15. Array al contrario con for
+const sequenza = [10, 20, 30, 40, 50];
+```
