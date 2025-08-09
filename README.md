@@ -1,8 +1,8 @@
-# Snack Javascript / Tyepscript
+# Snack Javascript
 
 ---
 
-### Serie di snack per esercitarsi con Javascript e Typescript che comprendono:
+### Serie di snack per esercitarsi con Javascript che comprendono:
 
 - Metodi degli array
 - Funzioni
