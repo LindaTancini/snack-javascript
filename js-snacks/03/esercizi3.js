@@ -48,3 +48,56 @@ console.log(es7);
 const numeri6 = [1, 2, 3, 4, 5, 6];
 const es8 = numeri6.map((e) => (e % 2 !== 0 ? e * 2 : e));
 console.log(es8);
+
+// Esercizio 9 - Usa find per trovare l’oggetto con prodotto uguale a "pane".
+const prodotti = [
+  { prodotto: "latte", prezzo: 1.5 },
+  { prodotto: "pane", prezzo: 1 },
+  { prodotto: "uova", prezzo: 2 },
+];
+const es9 = prodotti.find((e) => e.prodotto === "pane");
+console.log(es9);
+
+// Esercizio 10 - Scrivi una funzione haColore(arr, colore) che ritorna true se colore è presente (usa includes).
+const colori1 = ["rosso", "blu", "verde", "giallo"];
+function haColore(arr, colore) {
+  return arr.includes(colore);
+}
+
+console.log(haColore(colori1, "verde"));
+console.log(haColore(colori1, "viola"));
+
+// Esercizio 11 - Usando un ciclo for stampa gli elementi partendo dall’ultimo verso il primo.
+const nomi2 = ["Chiara", "Luca", "Marco", "Elena"];
+
+for (let i = nomi2.length - 1; i >= 0; i--) {
+  console.log(nomi2[i]);
+}
+
+// Esercizio 12 - Usa filter per ottenere solo i maggiorenni e poi forEach per stamparne i nomi.
+const persone2 = [
+  { nome: "Andrea", eta: 17 },
+  { nome: "Sofia", eta: 20 },
+  { nome: "Paolo", eta: 15 },
+  { nome: "Martina", eta: 25 },
+];
+
+const es12 = persone2.filter((e) => e.eta >= 18);
+es12.forEach((e) => {
+  console.log(e);
+});
+
+// Esercizio 13 - usa map per ottenere un array con i numeri convertiti in stringa.
+const numeri7 = [5, 10, 15, 20];
+const es13 = numeri7.map((e) => e.toString());
+console.log(es13);
+
+// Esercizio 14 - usa find per ottenere la prima parola che contiene la lettera "z".
+const parole2 = ["casa", "pizza", "mare", "sole"];
+const es14 = parole2.find((e) => e.includes("z"));
+console.log(es14);
+
+//Esercizio 15 - usa filter per rimuovere il numero 5 da esso.
+const numeri8 = [1, 5, 7, 5, 9, 10];
+const es15 = numeri8.filter((e) => e !== 5);
+console.log(es15);
