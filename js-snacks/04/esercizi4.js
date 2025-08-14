@@ -48,3 +48,42 @@ for (let i = 0; i < numeri3.length; i++) {
   }
 }
 console.log(count);
+
+// Esercizio 7 - Stampali in console uno alla volta con un ciclo for
+const nomi = ["Luca", "Maria", "Anna", "Giorgio", "Elena"];
+for (let i = 0; i < nomi.length; i++) {
+  console.log(nomi[i]);
+}
+console.log("-------");
+
+// Esercizio 8 - Stampa solo i numeri dispari compresi tra 1 e 15.
+for (let i = 0; i <= 15; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
+console.log("-------");
+
+// Esercizio 9 - Calcola il prodotto (moltiplicazione) dei numeri da 1 a 5.
+let prodotto = 1;
+for (let i = 1; i <= 5; i++) {
+  prodotto *= i;
+}
+console.log(prodotto);
+console.log("-------");
+
+// Esercizio 10 - Stampa ogni colore con il formato: Colore:
+const colori = ["Rosso", "Verde", "Blu", "Giallo", "Viola"];
+for (let i = 0; i < colori.length; i++) {
+  console.log("Colore:", colori[i]);
+}
+console.log("-------");
+
+// Esercizio 11 - Calcola la somma di tutti gli elementi dell'array
+const numeri8 = [5, 10, 15, 20, 25];
+let somma11 = 0;
+for (let i = 0; i < numeri8.length; i++) {
+  somma11 += numeri8[i];
+}
+console.log(somma11);
+console.log("-------");
